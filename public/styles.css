@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
+    height: 90vh;
+}
+.section{
+  font-size: 2em;
+  font-family: 'Doppio One', sans-serif;
+}
+header, aside, article, footer{
+    border-style: solid;
+    font-size: 1em;
+    padding: 6px;
+}
+aside{
+  background: #8a307f;
+  color: white    
+}
+article{
+  background: #79a7d3;    
+}
+header, footer{
+  grid-column: 1 / 4;
+  background: #6883bc;    
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+button{
+    font-size: 1em;
+    margin-right: 8px;
+    min-width: 4em;
+}
+img{
+  height: 32px;
+  width: 32px;
+}
